@@ -6,6 +6,7 @@ import Charts from "./components/Charts";
 import Navbar from "./components/Navbar";
 
 import "./styles.scss";
+import 'semantic-ui-css/semantic.min.css';
 
 const App = () => {
   const [coinData, setCoinData] = useState([]);
